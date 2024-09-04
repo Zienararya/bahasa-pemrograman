@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string-array name="umur">
+        <item>dibawah 12 bulan</item>
+        <item>1 - 6 tahun</item>
+        <item>7 - 12 tahun</item>
+    </string-array>
+</resources>
