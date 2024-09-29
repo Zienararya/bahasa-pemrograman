@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Federal_blue">#03045E</color>
+    <color name="Marian_blue">#023E8A</color>
+    <color name="Honolulu_Blue">#0077B6</color>
+    <color name="Blue_Green">#0096C7</color>
+    <color name="Pacific_cyan">#00B4D8</color>
+    <color name="Vivid_sky_blue">#48CAE4</color>
+    <color name="Non_Photo_blue">#90E0EF</color>
+    <color name="Non_Photo_blue2">#ADE8F4</color>
+    <color name="Light_cyan">#CAF0F8</color>
+</resources>

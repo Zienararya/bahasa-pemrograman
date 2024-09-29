@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="28dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Food and mood"
+            android:layout_centerHorizontal="true"
+            android:textSize="30sp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="@color/tangerine"
+            android:id="@+id/textview_namaresto"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:id="@+id/cardview_pertama">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/starter"
+                    android:id="@+id/cardview_gambar_pertama"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Starters"
+                    android:textSize="18dp"
+                    android:fontFamily="sans-serif-black"
+                    android:id="@+id/cardview_text_pertama"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/cardview_pertama"
+            android:layout_marginTop="25dp"
+            android:id="@+id/cardview_kedua">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/main"
+                    android:id="@+id/cardview_gambar_kedua"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Mains"
+                    android:textSize="18dp"
+                    android:fontFamily="sans-serif-black"
+                    android:id="@+id/cardview_text_kedua"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/cardview_kedua"
+            android:layout_marginTop="25dp"
+            android:id="@+id/cardview_ketiga">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/dessert"
+                    android:id="@+id/cardview_gambar_ketiga"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Dessert"
+                    android:textSize="18dp"
+                    android:fontFamily="sans-serif-black"
+                    android:id="@+id/cardview_text_ketiga"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cardview_ketiga"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Our Store"
+            android:backgroundTint="@color/ultraviolet"
+            android:textColor="@color/white"
+            android:textSize="10pt"
+            android:fontFamily="sans-serif-light"
+            android:id="@+id/text_location"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_location"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Order Now"
+            android:backgroundTint="@color/ultraviolet"
+            android:textColor="@color/white"
+            android:textSize="10pt"
+            android:fontFamily="sans-serif-light"
+            android:id="@+id/text_ordernow"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_ordernow"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Contact Me"
+            android:backgroundTint="@color/ultraviolet"
+            android:textColor="@color/white"
+            android:textSize="10pt"
+            android:fontFamily="sans-serif-light"
+            android:id="@+id/text_contact"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_contact"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Follow my Instagram"
+            android:backgroundTint="@color/ultraviolet"
+            android:textColor="@color/white"
+            android:textSize="10pt"
+            android:fontFamily="sans-serif-light"
+            android:id="@+id/text_instagram"/>
+
+
+    </RelativeLayout>
+</ScrollView>

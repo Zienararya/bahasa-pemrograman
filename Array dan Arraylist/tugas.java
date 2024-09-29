@@ -9,7 +9,7 @@ public class tugas {
         JComboBox<String> comboBox = new JComboBox<>(options);
         
         while (true) {
-            JOptionPane.showMessageDialog(null, comboBox, "Pilih opsi:", JOptionPane.QUESTION_MESSAGE);
+            JOptionPane.showMessageDialog(null, comboBox, "Database Mahasiswa", JOptionPane.DEFAULT_OPTION);
             String selectedOption = (String) comboBox.getSelectedItem();
 
             switch (selectedOption) {
