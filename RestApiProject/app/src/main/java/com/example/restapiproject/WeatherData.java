@@ -6,7 +6,7 @@ public class WeatherData {
     private String condition;
     private String icon;
 
-    public WeatherData(String cityName, String temperature, String condition) {
+    public WeatherData(String cityName, String temperature, String condition, String icon) {
         this.cityName = cityName;
         this.temperature = temperature;
         this.condition = condition;

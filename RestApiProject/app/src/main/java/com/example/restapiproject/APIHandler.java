@@ -46,8 +46,9 @@ public class APIHandler {
                 String cityName = location.getString("name");
                 String temperature = current.getString("temp_c") + "°C";
                 String condition = current.getJSONObject("condition").getString("text");
+                String icon = current.getJSONObject("condition").getString("icon");
 
-                weatherDataList.add(new WeatherData(cityName, temperature, condition));
+                weatherDataList.add(new WeatherData(cityName, temperature, condition, icon));
                 listener.onResponse(weatherDataList);
             } catch (JSONException e){
                 listener.onError(e.getMessage());
