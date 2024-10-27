@@ -16,7 +16,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class APIHandler {
-    private static final String API_KEY = "80bdf26e12d44d6e82330026242909";  // Ganti dengan API key Anda
+    private static final String API_KEY = "80bdf26e12d44d6e82330026242909";
     private static final String BASE_URL = "https://api.weatherapi.com/v1/current.json?key=" + API_KEY + "&q=";
 
     private Context context;
